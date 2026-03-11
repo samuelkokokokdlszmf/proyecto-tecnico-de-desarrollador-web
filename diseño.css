@@ -187,4 +187,21 @@ margin: 30px auto;
     text-shadow:0px 0px 10px chartreuse;
 }
 
+@media (max-width: 600px) {
+    /* Aquí van los cambios para celular */
+    
+    body {
+        padding: 10px; /* Para que el texto no toque los bordes de la pantalla */
+    }
+
+    .tarjeta-reseña { /* O como se llame tu clase de los cuadros con borde neón */
+        width: 90%;   /* Que ocupen casi todo el ancho del celular */
+        flex-direction: column; /* Si tienes imagen y texto de lado, ponlos uno arriba del otro */
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8rem; /* Ajusta el tamaño de los títulos para que no sean gigantes */
+    }
+}
    
